@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Clock"
+        android:title="Clock"
+        android:drawable="@color/material_dynamic_primary30"
+        android:state_checked="true"
+        android:icon="@mipmap/clock_navbar_foreground"/>
+    <item
+        android:id="@+id/Timer"
+        android:title="Timer"
+        android:drawable="@color/material_dynamic_primary30"
+        android:state_checked="true"
+        android:icon="@mipmap/timer_navbar_foreground"/>
+    <item
+        android:id="@+id/Stopwatch"
+        android:title="Stopwatch"
+        android:drawable="@color/material_dynamic_primary30"
+        android:state_checked="true"
+        android:icon="@mipmap/stopwatch_navbar_foreground"/>
+</menu>
