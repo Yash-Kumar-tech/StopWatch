@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val bottomnavview = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
 
         bottomnavview.selectedItemId = R.id.Clock
-        startActivity(Intent(applicationContext, TimerActivity::class.java))
+        startActivity(Intent(applicationContext, ClockActivity::class.java))
         overridePendingTransition(0, 0)
         bottomnavview.setOnItemSelectedListener {
             if(it.itemId == R.id.Clock) {
